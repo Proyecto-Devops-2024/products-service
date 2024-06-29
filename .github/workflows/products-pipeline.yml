@@ -14,10 +14,8 @@ on:
 permissions: write-all
 
 jobs:
-  main-workflow:
-    
-    uses: Proyecto-Devops-2024/devops-repo/.github/workflows/main-workflow.yml@main
-    with:
-      sonar_project_key: Proyecto-Devops-2024_products-service
-      service_name: products
-    secrets: inherit
+  uses: Proyecto-Devops-2024/devops-repo/.github/workflows/main-workflow.yml@main
+  with:
+    sonar_project_key: Proyecto-Devops-2024_products-service
+    service_name: products
+  secrets: inherit
