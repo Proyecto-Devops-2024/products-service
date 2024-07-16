@@ -19,4 +19,5 @@ jobs:
     with:
       sonar_project_key: Proyecto-Devops-2024_products-service
       service_name: products
+      
     secrets: inherit
